@@ -129,8 +129,8 @@
     <Compile Remove="RedisCacheLock.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="BinaryFormatter" Version="2.1.4" />
-    <PackageReference Include="Senparc.CO2NET.Cache.Redis" Version="4.1.2.6" />
+    <PackageReference Include="BinaryFormatter" Version="3.0.0" />
+    <PackageReference Include="Senparc.CO2NET.Cache.Redis" Version="4.2.0" />
   </ItemGroup>
   <ItemGroup Condition=" '$(TargetFramework)' == 'net462' ">
     <!--<PackageReference Include="StackExchange.Redis" Version="1.2.6" />-->
@@ -145,6 +145,6 @@
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="1.1.1" />
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="8.0.0" />
   </ItemGroup>
 </Project>
