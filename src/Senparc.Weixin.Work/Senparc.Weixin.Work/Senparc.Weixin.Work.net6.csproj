@@ -236,7 +236,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Senparc.NeuChar" Version="2.4.0" />
-    <PackageReference Include="Senparc.Weixin" Version="6.17.0" />
+    <PackageReference Include="Senparc.Weixin" Version="6.17.1" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Update="Microsoft.SourceLink.GitHub" Version="8.0.0" />
